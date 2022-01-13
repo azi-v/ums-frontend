@@ -1,10 +1,10 @@
-import React from 'react';
+import * as React from 'react';
 import './App.css';
-import { SiderComponent } from './components/sider/SiderComponent';
+import { VirtualUserpage} from './components/virtual_user/VirtualUserComponent'
 
 const App = () => (
   <div className="App">
-    <SiderComponent></SiderComponent>
+    <VirtualUserpage></VirtualUserpage>
   </div>
 );
 
