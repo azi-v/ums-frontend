@@ -28,21 +28,21 @@ const tailLayout = {
 // TODO: 从接口拉取
 const approval_people = [
     // label为员工名称 value为员工id
-    { label: '付煦', value: '1' },
-    { label: '张瑞焱', value: '2' },
-    { label: '贾睿', value: '3' },
-    { label: '邓旭', value: '4' },
-    { label: '肖潇', value: '5' },
-    { label: '周宇珠', value: '6' },
+    { label: '审核人1', value: '1' },
+    { label: '审核人2', value: '2' },
+    { label: '审核人3', value: '3' },
+    { label: '审核人4', value: '4' },
+    { label: '审核人5', value: '5' },
+    { label: '审核人6', value: '6' },
 ];
 
 // 工单执行人名单
 // TODO: 从接口拉取
 const executor = [
-    { label: '陈明', value: '1' },
-    { label: '杨浩', value: '2' },
-    { label: '刘金花', value: '3' },
-    { label: '付煦', value: '4' },
+    { label: '审批执行人1', value: '1' },
+    { label: '审批执行人2', value: '2' },
+    { label: '审批执行人3', value: '3' },
+    { label: '审批执行人4', value: '4' },
 ]
 
 export const VirtualUserForm = () => {
